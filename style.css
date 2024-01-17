@@ -1,7 +1,7 @@
+ @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600;700&display=swap');
+
 :root{
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+ 
 
 
   --White: hsl(0, 0%, 100%);
@@ -11,16 +11,21 @@
 }
 
 body{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
   background-image: url(images/background-pattern-desktop.svg);
   background-repeat: no-repeat;
 
   background-color: var(--Light_pink);
   height: 100vh;
-  font-size: 16px;
 
   display: flex;
   justify-content: center;
   align-items: center;
+
+  font-family: 'Work Sans', sans-serif;
 }
 
 .container{
@@ -29,24 +34,40 @@ body{
   background-color:var(--White);
   border: 2px solid red;
   border-radius: 2em;
-
-  padding: 1em ;
+  padding: 2em;
 }
 .sub_text{
+  font-size: .7em;
+  color: var(--Grayish_purple);
   display: none;
 }
 
 li{
   list-style: none;
 }
-.faq_heading{
+img{
+  height: 30px;
+}
+ .faq_heading{
   display: flex;
   gap: 1em;
-  justify-content: flex-start;
   align-items: center;
+  justify-content: flex-start;
+
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 700;
+  font-size: 2em;
+  color: var(--Dark_purple);
+  margin-bottom: 1em;
 }
 .sub_head{
-  display:  flex;
+  display: flex;
   justify-content: space-between;
-  align-content: flex-start;
+  align-items: center;
 }
+.sub_header{
+ color: var(--Dark_purple);
+ font-size: .9em;
+ font-weight: 600;
+}
+
