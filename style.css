@@ -7,6 +7,7 @@
   --White: hsl(0, 0%, 100%);
   --Light_pink: hsl(275, 100%, 97%);
   --Grayish_purple: hsl(292, 16%, 49%);
+  --purple: hsl(293, 86%, 31%);
   --Dark_purple: hsl(292, 42%, 14%);
 }
 
@@ -69,5 +70,9 @@ img{
  color: var(--Dark_purple);
  font-size: .9em;
  font-weight: 600;
+}
+.sub_header:hover{
+ color: var(--purple);
+  cursor: pointer;
 }
 
